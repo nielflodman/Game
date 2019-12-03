@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        canvas {
+            border: 1px solid #d3d3d3;
+            background-color: #f1f1f1;
+        }
+        </style>
+
+    <title>Document</title>
+</head>
+<body onload="startGame()">
+    
+    <script src="myGame.js",></script>
+    <script src="gamecanvas.js"></script>
+    <script src="gamepiece.js"></script>
+    <script src="move.js"></script>
+
+   
+    </script>
+        <div style="text-align:center;width:480px;"><br>
+                <button onmousedown="moveup()", onmouseup="stopMove()" >UP</button><br><br>
+                <button onmousedown="moveleft()", onmouseup="stopMove()" >LEFT</button>
+                <button onmousedown="moveright()", onmouseup="stopMove()" >RIGHT</button><br><br>
+                <button onmousedown="movedown()", onmouseup="stopMove()" >DOWN</button>
+                
+        </div>
+    </script>
+</body>
+</html>
